@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#取得最後一次commit內容到文字檔
+git log -n 1 > "D:\NeverRemove.txt"
+
+#打包程式
+.git/hooks/CopyFile.bat
+
+#Notify通知
+python .git/hooks/post-commit.py
+
+#Send Mail(still test)
+#python .git/hooks/1.py 
+#python .git/hooks/mail.py 
