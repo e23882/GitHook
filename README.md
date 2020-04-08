@@ -1,6 +1,6 @@
 # GitHook
 Push and copy to specify path and Notify through Line
-## Python 3.8
+### Environment Python 3.8
 
 ## Quick Start
 ### 1.clone and copy all file to project/.git/hooks
