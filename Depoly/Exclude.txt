@@ -1,0 +1,8 @@
+.pdb
+.xml
+XXXX.exe
+XXXX.exe.config
+XXXX.Server.exe.config
+XXXX.Server.exe
+App_Data
+.txt
